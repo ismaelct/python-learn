@@ -1,11 +1,16 @@
-numero_ganador = 3
+import random
+
+numero_ganador = random.randint(1, 10)
 
 print("Tienes que adivinar un numero del 1 al 10.")
 
 numero_elegido = int(input("¿Cual crees que es el número?: "))
 
-
 if numero_elegido == numero_ganador:
     print("Enhorabuena has acertado")
 
+if numero_elegido != (1, 10):
+    print("Hiciste trampa.")
+
+print("El numero ganador erá: {}".format(numero_ganador))
 print("Fin del juego.")
