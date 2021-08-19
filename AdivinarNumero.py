@@ -9,8 +9,5 @@ numero_elegido = int(input("¿Cual crees que es el número?: "))
 if numero_elegido == numero_ganador:
     print("Enhorabuena has acertado")
 
-if numero_elegido != (1, 10):
-    print("Hiciste trampa.")
-
 print("El numero ganador erá: {}".format(numero_ganador))
 print("Fin del juego.")
