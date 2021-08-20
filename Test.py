@@ -88,7 +88,6 @@ elif (15 < puntuacion <= 25):
 elif (0 < puntuacion <= 15):
     print("Eres apoyo.")
 
-    print("Eres support.")
 if puntuacion == 30:
     print("Asesino solitario.")
 if puntuacion == 0:
