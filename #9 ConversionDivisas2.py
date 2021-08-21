@@ -47,3 +47,5 @@ elif opcion == "F":
     dinero = float(input("Cantidad en £: "))
     conversion = (dinero / libra_euro)
     print(str(conversion) + " €")
+else:
+    print("No ha elegido ningúna opción.")
