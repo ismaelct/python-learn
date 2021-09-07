@@ -9,6 +9,7 @@ while acabar == "S":
     danno_pokemon_a = random.randint(5,15)
     ataque_rapido = int(random.uniform(0.5,1.5) * danno_pokemon_a)
     bola_voltio = int(2.5 * danno_pokemon_a)
+    
     if vida_pokemon_a < 85:
         danno_pokemon_a += 5
 
@@ -19,6 +20,7 @@ while acabar == "S":
     danno_pokemon_b = random.randint(5,15)
     placaje = int(1.1 * danno_pokemon_b)
     hoja_afilada = 3 * danno_pokemon_b
+    
     if vida_pokemon_b < 85:
         danno_pokemon_b += 5
 
@@ -86,6 +88,7 @@ while acabar == "S":
         if ataque_jugador == "P":
             print("{} ha usado [placaje] y ha hecho {} de daño.".format(pokemon_b, placaje))
             vida_actual_a -= placaje
+            
         elif ataque_jugador == "H":
             print("{} ha usado [hoja afilada] y ha hecho {} de daño.".format(pokemon_b, hoja_afilada))
             vida_actual_a -= hoja_afilada
@@ -97,8 +100,11 @@ while acabar == "S":
 
     if vida_actual_a > vida_actual_b:
         print("Ha ganado {} con [{}]PS".format(pokemon_a,porcentaje_vida_a * "█" + ((10 - porcentaje_vida_a) * " ")))
+        
     else:
         print("Ha ganado {} con [{}]PS".format(pokemon_b,porcentaje_vida_b * "█" + ((10 - porcentaje_vida_b) * " ")))
+        
         acabar = None
+        
         while acabar != "S" or acabar != "N":
             acabar = str(input("Quieres volver a jugar: [S]i | [N]o\n"))
