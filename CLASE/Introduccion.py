@@ -1,33 +1,33 @@
-# variables
-    nombre = 'ismael'
-    pi = '3.1415'
+#   variables
+    nombre = 'ismael'   # strings
+    pi = '3.1415'       # numeros
 
-# cadenas
-    solo = 'ismael'
+#   cadenas
+    solo = 'ismael'     # one-line
     multi = """
                 ismael
                 castellanos
                 talavera
-            """
+            """         # multi-line
 
-# numeros
-    entero = 192
-    decimal = 1.92
+#   numeros
+    entero = 192        # entero
+    decimal = 1.92      # decimal
 
-# Boelanos
-    verdadero = True
-    falso = False
+#   Boelanos
+    verdadero = True    # Verdadero
+    falso = False       # Falso
 
-# Tupla(tabla)
-print('TUPLA')
-    tabla = ("zero","one","two","three","four")
-    print("0",tabla[0],"1",tabla[1],"2",tabla[2])
-    #
-    print("Del 1 al 4 sin incluir el 4",tabla[1:4])
-    # del n hasta el final
-    print("sin pasar por el cero hasta el 4",tabla[1:])
-    # desde el inicio hasta n
-    print("hasta el 1 primero sin incluir el primero",tabla[:1])
+#   Tupla(tabla)
+    print('TUPLA')
+        tupla = ("zero","one","two","three","four")
+        print("0",tupla[0],"1",tupla[1],"2",tupla[2])
+        #
+        print(tupla[1:4])
+        # del n hasta el final
+        print(tupla[1:])
+        # desde el inicio hasta n
+        print(tupla[:1])
 
 # Listas
 print("LISTA")
