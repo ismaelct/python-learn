@@ -15,5 +15,5 @@ c = int(
 )
 # print("el mínimo es:", min(a, b, c))
 # print("el máximo es:", max(a, b, c))
-print("el número mínimo entre {}, {}, {} es {} y el número máximo entre es {}".format(a, b, c, min(a, b, c),
+print("el número mínimo entre {}, {}, {} es {} y el número máximo es {}".format(a, b, c, min(a, b, c),
                                                                                                max(a, b, c)))

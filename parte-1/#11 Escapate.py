@@ -10,7 +10,13 @@ victoria = ("""
                                                              
 """)
 
-derrota = ("""
+derrota = ("""/home/angar/repos/python-learn/venv/bin/python "/home/angar/repos/python-learn/parte-1/#1 PrimeraPrueba.py"
+¿Como te llamas? ismael
+Tu nombre es ismael
+4
+
+Process finished with exit code 0
+
 ██████╗ ███████╗██████╗ ██████╗  ██████╗ ████████╗ █████╗ 
 ██╔══██╗██╔════╝██╔══██╗██╔══██╗██╔═══██╗╚══██╔══╝██╔══██╗
 ██║  ██║█████╗  ██████╔╝██████╔╝██║   ██║   ██║   ███████║
