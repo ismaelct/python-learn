@@ -1,4 +1,5 @@
 import random
+import os
 acabar = "S"
 while acabar == "S":
 
@@ -106,5 +107,5 @@ while acabar == "S":
         
         acabar = None
         
-        while acabar != "S" or acabar != "N":
+        while acabar != "S" and acabar != "N":
             acabar = str(input("Quieres volver a jugar: [S]i | [N]o\n"))
