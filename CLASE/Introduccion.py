@@ -19,8 +19,8 @@ verdadero = True
 falso = False
 
 # Listas tuplas y diccionarios
-# tabla = (hola,adios,quetal)
-
+tabla = ("hola","adios","que tal")
+print("0",tabla[0],"1",tabla[1],"2",tabla[2])
 # Operadores
 # + suma
 # - resta
@@ -56,7 +56,7 @@ print(a,b)
     # false xor false = false
 
 # Imprimir pantalla
-print("Mensaje","alerta",a,sep="_",end=" :termiando")
+print("Mensaje","alerta",a,sep="_",end=" :termiando\n")
 
 # pedir informacion
 variable = input("Dime algo: ")  # raw_input()
