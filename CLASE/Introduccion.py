@@ -145,3 +145,26 @@ diccionario.items
 diccionario.keys
 diccionario.values
 diccionario.clear
+
+# matrices
+
+# funciones
+# range(m,n,s)
+#   m valor inicial
+#   n valro final
+#   s incremento
+
+
+# estructuras de control
+
+if condicion:
+    {}
+elif condicio:
+    {}
+else:
+    {}
+
+
+# martriz
+
+'''matriz = [[1,2,3],[a,c,b],[i,ii,iii]]'''
