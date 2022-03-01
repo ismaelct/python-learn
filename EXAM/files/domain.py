@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import os
 
 os.remove("registro_bonito.txt")
