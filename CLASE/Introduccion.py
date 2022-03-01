@@ -147,7 +147,7 @@ diccionario.values
 diccionario.clear
 
 # matrices
-
+matriz = [[1,2,3],[a,c,b],[i,ii,iii]]
 # funciones
 # range(m,n,s)
 #   m valor inicial
